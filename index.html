@@ -1,6 +1,20 @@
 <html>
 <body>
 <P>A1来个高闪!好么?秋梨膏!</P>
-<img id="logo" src="laugh.jpeg">
+
+<script src="jquery-3.4.1.js"></script>
+<script src="jssor.slider.min.js"></script>
+<script>
+    jQuery  (document).ready(function($){
+        var options = { $AutoPlay: 1 };
+        var jssor1_slider=new $JssorSlider$("jssor_1",options);
+    });
+</script>
+<div id="jssor_1">
+    <div><img data-u="slider" style="position: absolute;top: 0px;left: 0px;width: 0px;height: 0px;overflow: hidden;">
+        <div><img data-u="image" src="laugh.jpeg"></div>
+        <div><img data-u="image" src="2.jpg"></div>
+    </div>
+</div>
 </body>
 </html>
